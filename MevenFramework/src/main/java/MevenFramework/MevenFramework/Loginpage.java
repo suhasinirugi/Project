@@ -11,10 +11,10 @@ private WebElement username;
 
 @FindBy(xpath="//input[@=id'pass']")
 private WebElement password;
-
+//commit third
 @FindBy(xpath="//button[@id='u_0_h_ED']")
 private WebElement submitt;
-//Github Final 
+//Github Final commit
 private WebDriver driver;
 public Loginpage(WebDriver driver) {
 	this.driver =driver;
